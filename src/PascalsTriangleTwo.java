@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
-
+ 
 public class PascalsTriangleTwo {
     public List<Integer> getRow(int rowIndex) {
         List<List<Integer>> list = new ArrayList<>();
