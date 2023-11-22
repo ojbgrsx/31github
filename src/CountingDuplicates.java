@@ -2,11 +2,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CountingDuplicates {
-
-    public static void main(String[] args) {
-        System.out.println(duplicateCount("indivisibility"));
-    }
-
     public static int duplicateCount(String text){
         String[] array = text.toLowerCase().split("");
         Map<String,Integer> map = new HashMap<>();
