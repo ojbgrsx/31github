@@ -1,16 +1,5 @@
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Optional;
-
-public class MajorityElement {
-
-    public static void main(String[] args) {
-        int[] arr = {3,2,3};
-        System.out.println(majorityElement(arr));
-    }
-
-    public static int majorityElement(int[] nums){
+class Solution {
+    public int majorityElement(int[] nums) {
         Map<Integer,Integer> map = new HashMap<>();
         int n = nums.length;
         for (Integer i:nums){
